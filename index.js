@@ -1,7 +1,8 @@
+#!/usr/bin/env node
 const commander = require("commander");
 
-const Database = require("./database");
-const Heroi = require("./heroi");
+const Database = require("./src/database");
+const Heroi = require("./src/heroi");
 
 async function main() {
   commander
